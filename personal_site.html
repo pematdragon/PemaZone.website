@@ -1,113 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pema Tshering — Muay Thai & Boxing</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="nav">
-      <div class="logo">
-        <img src="/mnt/data/A_2D_digital_illustration_features_a_friendly_robo.png" alt="Logo" />
-        <span class="name">Pema Tshering</span>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#muay-thai">Muay Thai</a></li>
-        <li><a href="#boxing">Boxing</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section id="hero" class="hero">
-      <div class="hero-content">
-        <h1>Pema Tshering</h1>
-        <p class="subtitle">Personal site — Muay Thai & Boxing</p>
-        <p class="lead">Welcome! I'm a passionate practitioner and fan of Muay Thai and Boxing. Here I share my journey, training notes, and photos.</p>
-      </div>
-      <div class="hero-image">
-        <img src="/mnt/data/A_2D_digital_illustration_features_a_friendly_robo.png" alt="Avatar">
-      </div>
-    </section>
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">MySite</div>
+  <input type="checkbox" id="menu-toggle">
+  <label class="menu-icon" for="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#interests">My Interests</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
 
-    <section id="about" class="card">
-      <h2>About Me</h2>
-      <p>Hi — I'm Pema. I train regularly in Muay Thai and Boxing and enjoy helping others learn the basics. I believe discipline, technique, and respect build strong fighters and strong people.</p>
-      <ul class="facts">
-        <li><strong>Location:</strong> Bhutan</li>
-        <li><strong>Experience:</strong> Amateur training, local competitions</li>
-        <li><strong>Interests:</strong> Coaching, fitness, footwork drills</li>
-      </ul>
-    </section>
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Welcome to My Black & Red Website</h1>
+  <p>This is a sleek, responsive website built with HTML and CSS, featuring a dark theme with bold red accents.</p>
+</section>
 
-    <section id="muay-thai" class="card split">
-      <div>
-        <h2>Muay Thai</h2>
-        <p>Muay Thai — the art of eight limbs — emphasizes kicks, knees, elbows, and clinch work. I focus on:</p>
-        <ul>
-          <li>Basic stance and footwork</li>
-          <li>Jab-cross-kick combinations</li>
-          <li>Clinch control and knee strikes</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Training Tips</h3>
-        <ol>
-          <li>Warm up, skip rope, and shadowbox for 10–15 minutes.</li>
-          <li>Practice pad work focusing on timing and power.</li>
-          <li>Cool down and stretch to prevent injury.</li>
-        </ol>
-      </div>
-    </section>
+<!-- About Me Section -->
+<section id="about">
+  <h1>About Me</h1>
+  <p>Hello! My name is [Your Name]. I am passionate about learning, exploring technology, and staying active. I enjoy challenges and creating projects that inspire creativity. I am always eager to learn new skills and connect with like-minded people.</p>
+</section>
 
-    <section id="boxing" class="card split alt">
-      <div>
-        <h2>Boxing</h2>
-        <p>Boxing builds speed, precision, and head movement. Key areas I train:</p>
-        <ul>
-          <li>Jab and cross mechanics</li>
-          <li>Footwork and angles</li>
-          <li>Defense: slips, blocks, and parries</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Drills</h3>
-        <ol>
-          <li>Focus mitt rounds (3-minute rounds).</li>
-          <li>Footwork ladders and cone drills.</li>
-          <li>Sparring control: light contact to learn timing.</li>
-        </ol>
-      </div>
-    </section>
+<!-- My Interests Section -->
+<section id="interests">
+  <h2>My Interests</h2>
+  <div class="interests">
+    <div class="interest-item">Muay Thai & Boxing</div>
+    <div class="interest-item">Video Games</div>
+    <div class="interest-item">Coding & Web Development</div>
+    <div class="interest-item">Music & Art</div>
+    <div class="interest-item">Travel & Adventure</div>
+  </div>
+</section>
 
-    <section id="gallery" class="card">
-      <h2>Gallery</h2>
-      <div class="gallery">
-        <img src="/mnt/data/A_2D_digital_illustration_features_a_friendly_robo.png" alt="photo1">
-        <img src="/mnt/data/A_2D_digital_illustration_features_a_friendly_robo.png" alt="photo2">
-        <img src="/mnt/data/A_2D_digital_illustration_features_a_friendly_robo.png" alt="photo3">
-      </div>
-      <p class="caption">Training snapshots and moments from the ring.</p>
-    </section>
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>You can reach me via email at <a href="mailto:example@email.com" class="email-link">example@email.com</a></p>
+</section>
 
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>If you want to connect, collaborate, or train together, reach out on social media or email.</p>
-      <ul class="contact-list">
-        <li><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-        <li><strong>Instagram:</strong> <a href="#">@yourhandle</a></li>
-        <li><strong>Location:</strong> Thimphu, Bhutan</li>
-      </ul>
-    </section>
-  </main>
+<!-- Footer -->
+<footer>
+  &copy; 2025 MySite. All rights reserved.
+</footer>
 
-  <footer class="site-footer">
-    <p>© Pema Tshering — Muay Thai & Boxing</p>
-  </footer>
 </body>
 </html>
+
